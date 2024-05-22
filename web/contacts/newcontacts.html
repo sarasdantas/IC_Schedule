@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contatos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #ffffff;
+            
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            background: linear-gradient(135deg, #3418E8 0%, #000080 100%);
+
+            width: 50%;
+
+            border-radius: 20px;
+            padding: 24px 47px 24px 48px;
+
+            font-family: "Inter", sans-serif;
+            color: #FFFFFF;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+        }
+
+        ion-icon {
+            font-size: 64px;
+            padding: 10px;
+            
+            background-color: #FFFFFF;
+            color: #3418e8;
+            border-radius: 50%;
+        }
+
+        input {
+            font-family: "Inter";
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+            box-shadow: 5px 5px 10px #00000073;
+            
+            background-color: #FFFFFF;
+
+            height: 40px;
+            padding: 20px;
+
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+
+        input:hover {
+            background-color: #DFDFDF;
+            color: #000000;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    <main>
+        <form>
+            <a href=""><ion-icon name="image-outline"></ion-icon></a><br>
+            <input type="text" name="nome" placeholder="Nome" maxlength="50" autofocus required>
+            <input type="text" name="telefone" placeholder="Telefone" maxlength="20" required>
+            <button value="Endereço">
+                <input type="text" name="cep" placeholder="12345-678" maxlength="8" autofocus>
+                <input type="text" name="uf" placeholder="UF" maxlength="2">
+                <input type="text" name="cidade" placeholder="Cidade">
+                <input type="text" name="bairro" placeholder="Bairro">
+                <input type="text" name="endereço" placeholder="Endereço">                
+            </button>
+        </form>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
