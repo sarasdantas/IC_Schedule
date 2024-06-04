@@ -53,7 +53,7 @@ function Login() {
 
     return (
         <div>
-            <main>
+            <main class="fundo">
 
                 <section class="login">
                     <header class="topo-login">
@@ -78,7 +78,7 @@ function Login() {
                     </article>
 
                     <article class="botao">
-                        <button type="submit" onClick={entrar}>Entrar</button>
+                        <button class="botao-entrar" type="submit" onClick={entrar}>Entrar</button>
                     </article>
 
                     <article class="texto-rodape">

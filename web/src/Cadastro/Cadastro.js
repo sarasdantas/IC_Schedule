@@ -94,7 +94,7 @@ function Cadastro()  {
     }
     return (
         <div>
-            <main>
+            <main class="fundo">
                 <section class="cadastro">
                     <header>
                         <p class="topo-cadastro">Cadastro</p>
@@ -103,7 +103,7 @@ function Cadastro()  {
                     <article class="dados">
 
                         <div class="imagem">
-                            <a href=""><ion-icon name="image-outline"></ion-icon></a>
+                            <a href=""><ion-icon class="icone-imagem" name="image-outline"></ion-icon></a>
                         </div>
                         <div id="nome">
                             <label for="name">Nome</label>
@@ -137,7 +137,7 @@ function Cadastro()  {
                     </article>
 
                     <article class="botao">
-                        <button type="submit" onClick={cadastrar}>Cadastrar</button>
+                        <button class="botao-cadastrar" type="submit" onClick={cadastrar}>Cadastrar</button>
                     </article>
 
                     <article class="texto-rodape">

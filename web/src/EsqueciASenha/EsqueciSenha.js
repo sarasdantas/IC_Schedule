@@ -37,7 +37,7 @@ function EsqueciSenha() {
     }
   return (
     <div>
-          <main>
+          <main class="fundo">
 
               <section class="recuperar-senha">
                   <header class="topo-recuperar-senha">Recuperar senha</header>
@@ -48,12 +48,12 @@ function EsqueciSenha() {
 
                   <article class="email">
                       <label for="email">Email</label>
-                      <input id="email" type="email" placeholder="user@email.com" oninput="emailValidate()" required/>
+                      <input class="campo-required" id="email" type="email" placeholder="user@email.com" oninput="emailValidate()" required/>
                           <span class="span-required">Digite um email válido</span>
                   </article>
 
                   <article class="botao">
-                      <button type="submit" onclick="recuperar()">Recuperar</button>
+                      <button class="botao-recuperar" type="submit" onclick="recuperar()">Recuperar</button>
                   </article>
 
                   <article class="texto-rodape">

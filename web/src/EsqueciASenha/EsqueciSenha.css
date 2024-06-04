@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-main {
+.fundo {
     background-color: #ffffff;
 
     width: 100%;
@@ -61,7 +61,7 @@ main {
     display: none;
 }
 
-input {
+.campo-required {
     font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
@@ -78,12 +78,12 @@ input {
     outline: none;
 }
 
-input:hover {
+.campo-required:hover {
     background-color: #DFDFDF;
     color: #000000;
 }
 
-button {
+.botao-recuperar {
     background: linear-gradient(135deg, #FFFFFF 0%, #6478E6 100%);
     box-shadow: 5px 5px 10px #00000073;
 
@@ -101,7 +101,7 @@ button {
     color: #1A0CB4;
 }
 
-button:hover {
+.botao-recuperar:hover {
     background: linear-gradient(135deg, #6478E6, #FFFFFF);
     cursor: pointer;
 
