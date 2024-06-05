@@ -279,7 +279,7 @@ function Schedule() {
                     )}
                     <article class="texto-rodape">
 
-                        <p>Avançar para <a href="/">
+                        <p>Avançar para <a href="/" class="link-rodape">
                             Login
                         </a>
                         </p>

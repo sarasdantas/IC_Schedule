@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+:root {
+    --azul-vivo: #2114cf;
+    --ciano-frio:#cbe3fb;
+    --azul-marinho:#06078e;
+    --bege-acinzentado:#b9b69f;
+    --roxo-acinzentado:#9f9dce;
+}
 
 .App {
+    background-color: var();
     text-align: center;
     font-family: "Inter", sans-serif;
 }
@@ -23,6 +31,8 @@
 }
 
 .calendario-container {
+    
+
     flex-grow: 1;
     margin-left: 20px;
     /* Adicione margem à esquerda para separar o menu lateral */
@@ -32,6 +42,8 @@
 
 .formulario-overlay,
 .evento-info-overlay {
+    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -46,6 +58,8 @@
 
 .formulario-evento,
 .evento-info-container {
+    
+
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -53,15 +67,25 @@
 }
 
 .formulario-evento form {
+    
+
     display: flex;
     flex-direction: column;
 }
 
 .botoes {
+    
+
     margin-top: 10px;
 }
 
 .evento-info-container button {
+    
+
     margin-top: 20px;
+}
+
+.link-rodape{
+    color: var(--azul-marinho);
 }
 
